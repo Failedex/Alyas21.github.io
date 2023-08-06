@@ -4,11 +4,12 @@
     <script type="application/javascript" src="collatz.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Unsolvable Math Problem</title>
 </head>
 
 <body>
-    <b>Collatz Conjecture</b>
+    <h1 id="header">Collatz Conjecture</h1>
     <br>
     <b>Explanation:</b><br>
     If you start x = 6 we check if x is even or odd<br>
@@ -22,8 +23,10 @@
     Chose any positive integer and press the calculate button.<br>
     <br>
 
-    <input id="collatz_input" type="text"/>
-    <button id="collatz_button" onclick="collatzCall()">Calculate</button>
+    <div id="interactive">
+        <input id="collatz_input" type="text"/>
+        <button id="collatz_button" onclick="collatzCall()">Calculate</button>
+    </div>
     <div id="demo"></div>
     <script type="application/javascript">
         function collatzCall() {

@@ -1,0 +1,47 @@
+
+button {
+    all: unset; 
+    border-radius: 5px;
+    background-color: #40a02b;
+    color: #4c4f69;
+    padding: 5px;
+    box-shadow: 0 5px #999;
+    width: 75px;
+}
+
+button:hover {
+    cursor: pointer; 
+}
+
+button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+
+input {
+    all: unset;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-style: solid;
+    border-width: 3px;
+}
+
+#demo {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#interactive {
+    margin: auto;
+    width: 500px;
+    display: block;
+}
+
+#header {
+    text-align: center;
+}
